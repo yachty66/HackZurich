@@ -13,15 +13,18 @@
 
 ---
 
-## Diagram
-
-![image](Diagram.jpg)
-
 ## Description
 
 Nox is your virtual sleep coach to support YOU to fall asleep FASTER and SMARTER. Through IoB (Internet of Bedrooms) we are combining wearables and smart speakers using GPT-3 to provide personal insightful information and biometric data while utilizing the power of artificial intelligence to personally coach YOU to fall asleep - Nox out.
 
 ---
+
+## Diagram
+
+![image](Diagram.jpg)
+
+---
+
 ## Folder structure
 
 ### amazonSkillSet
