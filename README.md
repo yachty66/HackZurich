@@ -7,8 +7,8 @@
 ### Table of Contents
 
 - [Description](#description)
-- [Diagram](#diagram)
 - [Folder structure](#how-to-use)
+- [Diagram](#diagram)
 - [Author Info](#author-info)
 
 ---
@@ -16,12 +16,6 @@
 ## Description
 
 Nox is your virtual sleep coach to support YOU to fall asleep FASTER and SMARTER. Through IoB (Internet of Bedrooms) we are combining wearables and smart speakers using GPT-3 to provide personal insightful information and biometric data while utilizing the power of artificial intelligence to personally coach YOU to fall asleep - Nox out.
-
----
-
-## Diagram
-
-![image](Diagram.jpg)
 
 ---
 
@@ -38,6 +32,12 @@ Fetching of personal sleep data from Google Fit (https://www.googleapis.com/auth
 ### models 
 
 Model testing and evaluation in [Google Colab](https://colab.research.google.com/drive/1JqCWDZx6_NY8sxCxCiGvXlV9dTdaSSia?usp=sharing). Tested was [EleutherAI/gpt-j-6B](https://huggingface.co/EleutherAI/gpt-j-6B), [facebook/blenderbot-400M-distill](facebook/blenderbot-400M-distill), [bigscience/bloom](https://huggingface.co/bigscience/bloom) and [GPT-3](https://beta.openai.com/playground). Choosen model for prodution because of best delivered output based on test prompts is GPT-3.
+
+---
+
+## Diagram
+
+![image](Diagram.jpg)
 
 ---
 
