@@ -23,7 +23,7 @@ Nox is your virtual sleep coach to support YOU to fall asleep FASTER and SMARTER
 
 ### AmazonSkillSet
 
-Lambda functions to build services that give new skills to Amazon Echo. Amazon Echo Skill Kit provides the APIs, tools, and documentation to create these new skills, powered by running Lambda functions.
+Lambda functions to build services that give new skills to Amazon Echo. Amazon Echo Skill Kit provides the APIs, tools, and documentation to create these new skills, powered by running Lambda functions. Interface for dynamically user interaction is available as prototype [here](https://creator.voiceflow.com/prototype/63268f910a0a0bc71bba96f1).
 
 ### GoogleFit
 
