@@ -1,0 +1,114 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "somnos coach",
+      "intents": [
+        {
+          "name": "AMAZON.RepeatIntent"
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "capture_query_intent",
+          "slots": [
+            {
+              "name": "query_slot",
+              "type": "AMAZON.SearchQuery",
+              "samples": [
+                "{query_slot}"
+              ]
+            }
+          ],
+          "samples": []
+        },
+        {
+          "name": "meditation",
+          "samples": [
+            "Can I meditate",
+            "Yes mediation",
+            "Yes meditation is good",
+            "Please play me a meditation",
+            "Meditate",
+            "Mediation sounds nice",
+            "I want to meditate"
+          ]
+        },
+        {
+          "name": "fantasy_journey",
+          "samples": [
+            "Please take me on a fantasy journey",
+            "I want to imagine something",
+            "Fantasy",
+            "I want to be in my fantasy",
+            "A fantasy journey please",
+            "I would like to do a fantasy journey"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "LOW"
+        }
+      }
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "capture_query_intent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "query_slot",
+              "type": "AMAZON.SearchQuery",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.query_slot.capture_query_intent.lA0gKcoPrguK6CeoQ5jE1aFhMfrAwayW"
+              }
+            }
+          ]
+        }
+      ],
+      "delegationStrategy": "ALWAYS"
+    },
+    "prompts": [
+      {
+        "id": "Elicit.Slot.query_slot.capture_query_intent.lA0gKcoPrguK6CeoQ5jE1aFhMfrAwayW",
+        "variations": [
+          {
+            "type": "SSML",
+            "value": "\u003cspeak\u003e\u003c/speak\u003e"
+          }
+        ]
+      }
+    ]
+  },
+  "version": "3"
+}
