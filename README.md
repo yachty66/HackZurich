@@ -19,17 +19,17 @@ Nox is your virtual sleep coach to support YOU to fall asleep FASTER and SMARTER
 
 ---
 
-## Folder structure
+## Folder Structure
 
-### amazonSkillSet
+### AmazonSkillSet
 
 Lambda functions to build services that give new skills to Amazon Echo. Amazon Echo Skill Kit provides the APIs, tools, and documentation to create these new skills, powered by running Lambda functions.
 
-### googleFit
+### GoogleFit
 
 Fetching of personal sleep data from Google Fit (https://www.googleapis.com/auth/fitness.sleep.read). Data parsing.
 
-### models 
+### Models 
 
 Model testing and evaluation in [Google Colab](https://colab.research.google.com/drive/1JqCWDZx6_NY8sxCxCiGvXlV9dTdaSSia?usp=sharing). Tested was [EleutherAI/gpt-j-6B](https://huggingface.co/EleutherAI/gpt-j-6B), [facebook/blenderbot-400M-distill](facebook/blenderbot-400M-distill), [bigscience/bloom](https://huggingface.co/bigscience/bloom) and [GPT-3](https://beta.openai.com/playground). Choosen model for prodution because of best delivered output based on test prompts is GPT-3.
 
