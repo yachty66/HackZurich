@@ -7,10 +7,15 @@
 ### Table of Contents
 
 - [Description](#description)
+- [Diagram](#diagram)
 - [Folder structure](#how-to-use)
 - [Author Info](#author-info)
 
 ---
+
+## Diagram
+
+![image](Diagram.jpg)
 
 ## Description
 
@@ -29,15 +34,17 @@ Fetching of personal sleep data from Google Fit (https://www.googleapis.com/auth
 
 ### models 
 
-Model testing and evaluation in [Google Colab](https://colab.research.google.com/drive/1JqCWDZx6_NY8sxCxCiGvXlV9dTdaSSia?usp=sharing). Tested was [EleutherAI/gpt-j-6B](https://huggingface.co/EleutherAI/gpt-j-6B), [facebook/blenderbot-400M-distill](facebook/blenderbot-400M-distill), and [GPT-3](https://beta.openai.com/playground). Choosen model for prodution because of best delivered output based on test prompts GPT-3.
+Model testing and evaluation in [Google Colab](https://colab.research.google.com/drive/1JqCWDZx6_NY8sxCxCiGvXlV9dTdaSSia?usp=sharing). Tested was [EleutherAI/gpt-j-6B](https://huggingface.co/EleutherAI/gpt-j-6B), [facebook/blenderbot-400M-distill](facebook/blenderbot-400M-distill), [bigscience/bloom](https://huggingface.co/bigscience/bloom) and [GPT-3](https://beta.openai.com/playground). Choosen model for prodution because of best delivered output based on test prompts is GPT-3.
 
 ---
 
 ## Author Info
 
 - [Markus Schinle](https://github.com/maschinle)
-- [Max Hager](https://github.com/yachty66)
 - [Marius Gerdes](https://github.com/nobodyz)
 - [Katharina Kreitner](https://github.com/Katharina2K)
+- [Simon Feralitas](https://github.com/Feralitas)
+- [Max Hager](https://github.com/yachty66)
 
 [Back To The Top](#read-me-template)
+
