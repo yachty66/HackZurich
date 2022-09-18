@@ -25,7 +25,7 @@ Lambda functions to build services that give new skills to Amazon Echo. Amazon E
 
 ### googleFit
 
-Fetching of personal sleep data from Google (https://www.googleapis.com/auth/fitness.sleep.read). Data parsing.
+Fetching of personal sleep data from Google Fit (https://www.googleapis.com/auth/fitness.sleep.read). Data parsing.
 
 ### models 
 
